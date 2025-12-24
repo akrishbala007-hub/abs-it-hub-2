@@ -74,30 +74,30 @@ export default function Home() {
           <div className="absolute bottom-0 inset-x-0 h-64 bg-gradient-to-t from-black to-transparent"></div>
         </div>
 
-        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-8 lg:gap-20 items-center relative z-10">
-          <div className="hero-text z-10 text-center lg:text-left mt-8 lg:mt-0">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card-sm border border-white/20 mb-6 lg:mb-8">
-              <span className="relative flex h-3 w-3">
+        <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-4 lg:gap-20 items-center relative z-10">
+          <div className="hero-text z-10 text-center lg:text-left mt-4 lg:mt-0">
+            <div className="inline-flex items-center gap-2 px-3 py-1 lg:px-4 lg:py-2 rounded-full glass-card-sm border border-white/20 mb-4 lg:mb-8">
+              <span className="relative flex h-2 w-2 lg:h-3 lg:w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 lg:h-3 lg:w-3 bg-white"></span>
               </span>
-              <span className="text-white text-xs lg:text-xl font-bold tracking-wide">Welcome to ABS IT Hub</span>
+              <span className="text-white text-[10px] lg:text-xl font-bold tracking-wide">Welcome to ABS IT Hub</span>
             </div>
-            <h1 className="reveal-text text-3xl md:text-5xl lg:text-7xl font-extrabold text-white mb-6 lg:mb-8 leading-tight tracking-tight">
+            <h1 className="reveal-text text-2xl md:text-5xl lg:text-7xl font-extrabold text-white mb-4 lg:mb-8 leading-tight tracking-tight">
               Refurbished Laptops <br />
               & Desktops for <br />
-              <span className="text-white underline decoration-wavy decoration-white/30 underline-offset-8">
+              <span className="text-white underline decoration-wavy decoration-white/30 underline-offset-4 lg:underline-offset-8">
                 Smart Buyers
               </span>
             </h1>
-            <p className="reveal-text text-base lg:text-2xl text-slate-400 mb-8 lg:mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
-              Your trusted destination for refurbished laptops and desktops in Coimbatore. Affordable, reliable, and eco-friendly IT solutions.
+            <p className="reveal-text text-sm lg:text-2xl text-slate-400 mb-6 lg:mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+              Your trusted destination for refurbished laptops and desktops in Coimbatore. Affordable, reliable, and eco-friendly.
             </p>
-            <div className="reveal-text flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center lg:justify-start">
-              <Link href="/products" className="bg-white text-black px-6 py-3 lg:px-10 lg:py-4 rounded-full font-bold transition-all shadow-lg hover:shadow-white/20 flex items-center justify-center gap-2 group hover:scale-105 text-sm lg:text-lg">
-                View Products <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <div className="reveal-text flex flex-row gap-3 justify-center lg:justify-start">
+              <Link href="/products" className="bg-white text-black px-4 py-2 lg:px-10 lg:py-4 rounded-full font-bold transition-all shadow-lg hover:shadow-white/20 flex items-center justify-center gap-1 lg:gap-2 group hover:scale-105 text-xs lg:text-lg">
+                View Products <ArrowRight className="w-3 h-3 lg:w-5 lg:h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href="#contact" className="px-6 py-3 lg:px-10 lg:py-4 rounded-full border border-white/30 hover:bg-white/10 text-white transition-all font-bold text-sm lg:text-lg flex items-center justify-center">
+              <Link href="#contact" className="px-4 py-2 lg:px-10 lg:py-4 rounded-full border border-white/30 hover:bg-white/10 text-white transition-all font-bold text-xs lg:text-lg flex items-center justify-center">
                 Contact Sales
               </Link>
             </div>
