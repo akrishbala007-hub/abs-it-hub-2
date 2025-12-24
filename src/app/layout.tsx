@@ -5,15 +5,53 @@ import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
-  title: "abs it hub | Next-Gen IT Solutions",
-  description: "Innovative IT solutions, product showcase, and tech insights from abs it hub.",
+  title: "ABS IT Hub | Premium Refurbished Laptops & Desktops in Coimbatore",
+  description: "Discover the best certified refurbished laptops and desktops at ABS IT Hub. Affordable, reliable, and eco-friendly IT solutions for students and professionals in Tamil Nadu.",
   keywords: [
-    "Refurbished laptops Tamil Nadu",
-    "Best refurbished desktops Coimbatore",
-    "Affordable student laptops India",
-    "Certified refurbished computers Coimbatore",
-    "Eco-friendly IT hardware solutions"
+    "Refurbished laptops Coimbatore",
+    "Second hand laptops Tamil Nadu",
+    "Used computers India",
+    "Best IT shop Coimbatore",
+    "Cheap gaming laptops",
+    "Refurbished desktops for students"
   ],
+  metadataBase: new URL('https://abs-it-hub.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "ABS IT Hub | Smart IT Solutions",
+    description: "Premium refurbished laptops and desktops at unbeatable prices. Quality tested and certified.",
+    url: 'https://abs-it-hub.com',
+    siteName: 'ABS IT Hub',
+    images: [
+      {
+        url: '/hero-bg.png', // Assuming we have a hero image, or we should use a specific OG image
+        width: 1200,
+        height: 630,
+        alt: 'ABS IT Hub Showroom',
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "ABS IT Hub | Best Refurbished Tech",
+    description: "Get the best deals on refurbished laptops & desktops in Coimbatore.",
+    images: ['/hero-bg.png'], // Using the same image
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
