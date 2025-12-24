@@ -74,40 +74,40 @@ export default function Home() {
           <div className="absolute bottom-0 inset-x-0 h-64 bg-gradient-to-t from-black to-transparent"></div>
         </div>
 
-        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10">
-          <div className="hero-text z-10 text-center lg:text-left mt-10 lg:mt-0">
+        <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-8 lg:gap-20 items-center relative z-10">
+          <div className="hero-text z-10 text-center lg:text-left mt-8 lg:mt-0">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card-sm border border-white/20 mb-6 lg:mb-8">
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
               </span>
-              <span className="text-white text-sm lg:text-xl font-bold tracking-wide">Welcome to ABS IT Hub</span>
+              <span className="text-white text-xs lg:text-xl font-bold tracking-wide">Welcome to ABS IT Hub</span>
             </div>
-            <h1 className="reveal-text text-4xl md:text-5xl lg:text-7xl font-extrabold text-white mb-6 lg:mb-8 leading-tight tracking-tight">
+            <h1 className="reveal-text text-3xl md:text-5xl lg:text-7xl font-extrabold text-white mb-6 lg:mb-8 leading-tight tracking-tight">
               Refurbished Laptops <br />
               & Desktops for <br />
               <span className="text-white underline decoration-wavy decoration-white/30 underline-offset-8">
                 Smart Buyers
               </span>
             </h1>
-            <p className="reveal-text text-lg lg:text-2xl text-slate-400 mb-8 lg:mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+            <p className="reveal-text text-base lg:text-2xl text-slate-400 mb-8 lg:mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
               Your trusted destination for refurbished laptops and desktops in Coimbatore. Affordable, reliable, and eco-friendly IT solutions.
             </p>
             <div className="reveal-text flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center lg:justify-start">
-              <Link href="/products" className="bg-white text-black px-8 py-3 lg:px-10 lg:py-4 rounded-full font-bold transition-all shadow-lg hover:shadow-white/20 flex items-center justify-center gap-2 group hover:scale-105 text-base lg:text-lg">
+              <Link href="/products" className="bg-white text-black px-6 py-3 lg:px-10 lg:py-4 rounded-full font-bold transition-all shadow-lg hover:shadow-white/20 flex items-center justify-center gap-2 group hover:scale-105 text-sm lg:text-lg">
                 View Products <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link href="#contact" className="px-8 py-3 lg:px-10 lg:py-4 rounded-full border border-white/30 hover:bg-white/10 text-white transition-all font-bold text-base lg:text-lg flex items-center justify-center">
+              <Link href="#contact" className="px-6 py-3 lg:px-10 lg:py-4 rounded-full border border-white/30 hover:bg-white/10 text-white transition-all font-bold text-sm lg:text-lg flex items-center justify-center">
                 Contact Sales
               </Link>
             </div>
           </div>
 
           {/* Visual - Hero Laptop Static (Monochrome) */}
-          <div className="relative w-full max-w-xl lg:max-w-2xl h-[350px] md:h-[450px] lg:h-[500px] flex items-center justify-center mt-8 lg:mt-0">
+          <div className="relative w-full max-w-xl lg:max-w-2xl h-[300px] md:h-[450px] lg:h-[500px] flex items-center justify-center mt-6 lg:mt-0">
             <div className="relative w-full h-full flex items-center justify-center">
               {/* Glow Effect */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] bg-white/5 rounded-full blur-[60px] lg:blur-[80px] -z-10"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] lg:w-[500px] lg:h-[500px] bg-white/5 rounded-full blur-[60px] lg:blur-[80px] -z-10"></div>
 
               <div className="w-full glass-card rounded-3xl p-6 lg:p-12 flex flex-col items-center justify-center border border-white/10">
                 <div className="w-full flex justify-start mb-4 lg:mb-8">
